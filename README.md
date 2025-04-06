@@ -1,4 +1,4 @@
-# ⚽ Chelsea FC Performance Insights Vizathon – Power BI Dashboard
+# Chelsea FC Performance Insights Vizathon – Power BI Dashboard
 
 ## Contexte
 Dans le cadre du **Chelsea FC Performance Insights Vizathon**, ce projet explore les données de récupération, de performance physique **et de positionnement GPS** des joueurs, afin de fournir des insights exploitables à l’encadrement technique et médical du club.
