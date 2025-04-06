@@ -1,13 +1,14 @@
-# Chelsea FC Performance Insights Vizathon – Power BI Dashboard
+# ⚽ Chelsea FC Performance Insights Vizathon – Power BI Dashboard
 
 ## Contexte
-Dans le cadre du **Chelsea FC Performance Insights Vizathon**, ce projet explore les données de récupération et de performance des joueurs pour fournir des insights exploitables à l’encadrement technique et médical du club.
+Dans le cadre du **Chelsea FC Performance Insights Vizathon**, ce projet explore les données de récupération, de performance physique **et de positionnement GPS** des joueurs, afin de fournir des insights exploitables à l’encadrement technique et médical du club.
 
 ---
 
 ## Objectifs
 - Identifier les axes d’optimisation dans le suivi de récupération.
 - Visualiser les benchmarks de performance physique sur une période étendue.
+- Analyser le **positionnement et les zones d’effort sur le terrain** via les données GPS.
 - Mettre en évidence les déséquilibres ou zones de sous-performance.
 
 ---
@@ -16,50 +17,59 @@ Dans le cadre du **Chelsea FC Performance Insights Vizathon**, ce projet explore
 
 - **Outil :** Power BI  
 - **Techniques :**
-  - Transformation des données via **Power Query**
-  - Modélisation relationnelle
-  - Calculs via **DAX** (benchmarks, moyennes, KPI dynamiques)
-  - Visualisations avancées : `Radar Charts`, `Bar Charts`, `KPI Cards`
+  - Transformation via **Power Query**
+  - Modélisation des données relationnelles
+  - Formules **DAX** pour KPI dynamiques et benchmarks
+  - Visualisations avancées : `Radar Charts`, `Time Series`, `KPI Cards`, `Heatmaps GPS`
 
 - **Sources de données :**
-  - Données de récupération (Subjective, Soreness, Sleep, etc.)
-  - Données de performance (Agility, Sprint, Grapple, Max Velocity, etc.)
-  - Benchmarks fournis par Chelsea FC
+  - Récupération subjective (Soreness, Sleep, Bio, etc.)
+  - Données de performance physique (Agility, Acceleration, Max Velocity, etc.)
+  - **CFC GPS Data** (latitude, longitude, vitesse, distance, intensité, etc.)
 
 ---
 
 ## Insights Majeurs
 
 ### Récupération
-- `Subjective` et `Soreness` sont les plus renseignées.
-- Données manquantes sur `bio` et `joint_range`, indiquant un suivi médical à renforcer.
-- Les tendances temporelles aident à prédire les chutes de forme.
+- `Subjective` et `Soreness` dominent la saisie.
+- Faible volume de données sur `bio` et `joint_range` : amélioration possible dans le suivi médical.
+- Analyse temporelle utile pour détecter les phases de sous-performance.
+  https://app.powerbi.com/reportEmbed?reportId=7551b878-3ae3-409a-bae1-59feab90ead5&autoAuth=true&ctid=901cb4ca-b862-4029-9306-e5cd0f6d9f86
+![image](https://github.com/user-attachments/assets/92c2bfae-b99c-4492-ba63-1fd750cacc2c)
 
 ### Performance Physique
-- `Agility` et `Sprint` > benchmarks.
-- `Max Velocity` < attendu : nécessite des entraînements ciblés.
-- `Deceleration` et `Acceleration` dominent, mais `Grapple` et `Rotate` sont à développer.
+- Excellente performance sur `Agility` et `Sprint`.
+- `Max Velocity` reste inférieure aux attentes = **levier d’entraînement**.
+- `Deceleration` et `Acceleration` maîtrisées, `Grapple` et `Rotate` à renforcer.
+![image](https://github.com/user-attachments/assets/ec682bae-19b2-424a-9dfa-c25ca483af61)
 
+
+
+### CFC GPS Insights
+- Analyse de **la couverture terrain** via cartes de chaleur et trajectoires.
+- Détection des **zones d’activité intense** et corrélation avec les performances physiques.
+- Certains joueurs présentent des **zones de repli fréquentes**, potentiellement liées à leur rôle ou à une fatigue récurrente.
+  ![image](https://github.com/user-attachments/assets/8487f163-c937-43be-9050-60a46e3897a4)
 ---
 
 ## Recommandations
-- Compléter les champs manquants (`bio`, `sleep tracking`, etc.).
-- Personnaliser le suivi des joueurs via des dashboards individuels.
-- Axer les entraînements sur les capacités physiques sous-représentées.
+- Renforcer la collecte de données manquantes (`bio`, `sleep`, `GPS partiel`).
+- Intégrer la donnée GPS dans les plans d’entraînement personnalisés.
+- Créer des **dashboards individuels** croisant performances et positionnements.
+- Focus sur les mouvements spécifiques (`grapple`, `rotate`, `velocity peaks`).
 
 ---
 
 ## Livrables
-- Power BI file `.pbix`
-- Résumé Word du projet
-- Ficher pdf avec les images 
-- Données nettoyées (si requis)
+- Fichier Power BI `.pbix`
+- Résumé du projet (.docx & .md)
+- Fichier PDF avec les insights relvés
+
 
 ---
 
 ## Conclusion
-Ce tableau de bord analytique offre une vue holistique des performances physiques et de la récupération des joueurs de Chelsea FC. Il propose des leviers concrets pour renforcer l’optimisation individuelle et collective, en alliant rigueur, visualisation et stratégie de performance durable.
+Ce tableau de bord propose une **vue holistique et intégrée** des performances des joueurs de Chelsea FC, combinant **données physiques, de récupération et GPS**. Il offre des insights concrets et actionnables pour améliorer la performance, prévenir les blessures et affiner la tactique d’équipe.
 
 ---
-
-
