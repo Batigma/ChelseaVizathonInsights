@@ -1,2 +1,2 @@
 # ChelseaVizathonInsights
-Une competiton de visualisation organiser par Chelsea
+Une competiton de visualisation organisé par Chelsea
