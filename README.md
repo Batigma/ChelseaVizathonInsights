@@ -36,13 +36,15 @@ Dans le cadre du **Chelsea FC Performance Insights Vizathon**, ce projet explore
 - Faible volume de données sur `bio` et `joint_range` : amélioration possible dans le suivi médical.
 - Analyse temporelle utile pour détecter les phases de sous-performance.
   https://app.powerbi.com/reportEmbed?reportId=7551b878-3ae3-409a-bae1-59feab90ead5&autoAuth=true&ctid=901cb4ca-b862-4029-9306-e5cd0f6d9f86
-![image](https://github.com/user-attachments/assets/92c2bfae-b99c-4492-ba63-1fd750cacc2c)
+  <img width="808" alt="image" src="https://github.com/user-attachments/assets/0f59b146-4233-42bb-a091-f79446f45210" />
+
 
 ### Performance Physique
 - Excellente performance sur `Agility` et `Sprint`.
 - `Max Velocity` reste inférieure aux attentes = **levier d’entraînement**.
 - `Deceleration` et `Acceleration` maîtrisées, `Grapple` et `Rotate` à renforcer.
-![image](https://github.com/user-attachments/assets/ec682bae-19b2-424a-9dfa-c25ca483af61)
+<img width="662" alt="image" src="https://github.com/user-attachments/assets/dc2e6778-d68d-409d-b728-87fc1a9e24cc" />
+
 
 
 
@@ -50,7 +52,8 @@ Dans le cadre du **Chelsea FC Performance Insights Vizathon**, ce projet explore
 - Analyse de **la couverture terrain** via cartes de chaleur et trajectoires.
 - Détection des **zones d’activité intense** et corrélation avec les performances physiques.
 - Certains joueurs présentent des **zones de repli fréquentes**, potentiellement liées à leur rôle ou à une fatigue récurrente.
-  ![image](https://github.com/user-attachments/assets/8487f163-c937-43be-9050-60a46e3897a4)
+ <img width="661" alt="image" src="https://github.com/user-attachments/assets/1c1872ef-3e09-4421-b579-a10d711a8588" />
+
 ---
 
 ## Recommandations
