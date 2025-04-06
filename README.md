@@ -35,7 +35,6 @@ Dans le cadre du **Chelsea FC Performance Insights Vizathon**, ce projet explore
 - `Subjective` et `Soreness` dominent la saisie.
 - Faible volume de données sur `bio` et `joint_range` : amélioration possible dans le suivi médical.
 - Analyse temporelle utile pour détecter les phases de sous-performance.
-  https://app.powerbi.com/reportEmbed?reportId=7551b878-3ae3-409a-bae1-59feab90ead5&autoAuth=true&ctid=901cb4ca-b862-4029-9306-e5cd0f6d9f86
   <img width="808" alt="image" src="https://github.com/user-attachments/assets/0f59b146-4233-42bb-a091-f79446f45210" />
 
 
